@@ -1,5 +1,5 @@
 {
-  "name": "rx",
+  "name": "@evo/rx",
   "title": "Reactive Extensions for JavaScript (RxJS)",
   "description": "Library for composing asynchronous and event-based operations in JavaScript",
   "version": "4.1.0",
