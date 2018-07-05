@@ -1,3 +1,5 @@
+const gruntBuild = require('./custom-builds/prom');
+
 module.exports = function (grunt) {
 
   grunt.initConfig({
@@ -18,6 +20,10 @@ module.exports = function (grunt) {
             '*/'
       },
       concat: {
+          prom: {
+            src: gruntBuild,
+            dest: "dist/rx.prom.js",
+          },
           core: {
             src: [
               'src/core/headers/license.js',
@@ -2103,6 +2109,13 @@ module.exports = function (grunt) {
             sourceMapName: 'dist/rx.all.map'
           },
           files: {'dist/rx.all.min.js': ['dist/rx.all.js'] }
+        },
+        prom: {
+          options: {
+            sourceMap: true,
+            sourceMapName: 'dist/rx.prom.map'
+          },
+          files: {'dist/rx.prom.min.js': ['dist/rx.prom.js'] }
         },
         'all-compat': {
           options: {
