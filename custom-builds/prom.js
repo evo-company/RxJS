@@ -45,17 +45,12 @@ module.exports = [
     // Creation
     'src/core/perf/operators/toarray.js',
     'src/core/linq/observable/create.js',
-    'src/core/linq/observable/defer.js',
     'src/core/perf/operators/empty.js',
     'src/core/perf/operators/from.js',
     'src/core/perf/operators/fromarrayobservable.js', 'src/core/perf/operators/fromarray.js',
-    'src/core/perf/operators/never.js',
     'src/core/perf/operators/of.js',
-    'src/core/perf/operators/pairs.js',
-    'src/core/perf/operators/range.js',
     'src/core/perf/operators/repeat.js',
     'src/core/perf/operators/just.js',
-    'src/core/perf/operators/throw.js',
 
     // Multiple
     'src/core/linq/observable/catchproto.js',
@@ -64,40 +59,27 @@ module.exports = [
     'src/core/perf/operators/combinelatest.js',
     'src/core/linq/observable/concatproto.js',
     'src/core/perf/operators/concat.js',
-    'src/core/linq/observable/concatall.js',
     'src/core/perf/operators/mergeconcat.js',
-    'src/core/linq/observable/merge.js',
-    'src/core/linq/observable/mergedelayerror.js',
     'src/core/perf/operators/mergeall.js',
+    'src/core/linq/observable/merge.js',
     'src/core/perf/operators/skipuntil.js',
-    'src/core/perf/operators/switch.js',
     'src/core/perf/operators/takeuntil.js',
     'src/core/perf/operators/withlatestfrom.js',
     'src/core/perf/operators/zip.js',
     'src/core/linq/observable/zip.js',
-    'src/core/linq/observable/zipiterable.js',
 
     // Single
     'src/core/linq/observable/asobservable.js',
     'src/core/linq/observable/bufferwithcount.js',
-    'src/core/linq/observable/dematerialize.js',
     'src/core/perf/operators/distinctuntilchanged.js',
     'src/core/perf/operators/tap.js',
     'src/core/perf/operators/finally.js',
-    'src/core/perf/operators/ignoreelements.js',
-    'src/core/linq/observable/materialize.js',
-    'src/core/linq/observable/repeatproto.js',
     'src/core/linq/observable/retry.js',
-    'src/core/linq/observable/retrywhen.js',
-    'src/core/linq/observable/repeatwhen.js',
     'src/core/perf/operators/scan.js',
-    'src/core/linq/observable/skiplast.js',
     'src/core/linq/observable/startwith.js',
-    'src/core/linq/observable/takelast.js',
     'src/core/linq/observable/windowwithcount.js',
 
     // Standard Query Operators
-    'src/core/perf/operators/concatmap.js',
     'src/core/perf/operators/map.js',
     'src/core/linq/observable/pluck.js',
     'src/core/perf/operators/flatmap.js',
@@ -140,6 +122,8 @@ module.exports = [
     'src/core/linq/observable/timer.js', // timeoutScheduler, _observabletimerdate, _observabletimerdateandperiod, _observabletimertimespan, _observabletimertimespanandperiod
     'src/core/linq/observable/delay.js', // AnonymousObservable, timeoutScheduler, SerialDisposable, materialize, timestamp
     'src/core/linq/observable/debounce.js', // AnonymousObservable, SerialDisposable, timeoutScheduler, SingleAssignmentDisposable, CompositeDisposable
+    'src/core/linq/observable/windowwithtimeorcount.js', // AnonymousObservable, SerialDisposable, SingleAssignmentDisposable, RefCountDisposable, CompositeDisposable, addref, subject
+    'src/core/linq/observable/bufferwithtimeorcount.js', // windowwithtimeorcount, selectMany, toArray
     'src/core/linq/observable/timestamp.js', // timeoutScheduler, select
     'src/core/linq/observable/sample.js', // AnonymousObservable, CompositeDisposable, interval, timeoutScheduler
     'src/core/linq/observable/timeout.js', // AnonymousObservable, timeoutScheduler, throw, SingleAssignmentDisposable, SerialDisposable, CompositeDisposable
@@ -147,12 +131,8 @@ module.exports = [
 
     // Backpressure operators
     'src/core/backpressure/pausable.js',
-    'src/core/backpressure/pausablebuffered.js',
     'src/core/backpressure/controlled.js',
     'src/core/linq/observable/pipe.js',
-
-    // Transducers
-    'src/core/linq/observable/transduce.js',
 
     'src/core/anonymousobservable.js',
     'src/core/autodetachobserver.js',
