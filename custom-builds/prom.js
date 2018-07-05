@@ -111,6 +111,9 @@ module.exports = [
     'src/core/linq/observable/sharereplay.js',
     'src/core/linq/connectableobservable.js',
 
+    // Coincidence operators
+    'src/core/linq/observable/pairwise.js',
+
     // Time operators
     'src/core/linq/observable/_observabletimer.js', // AnonymousObservable
     'src/core/linq/observable/_observabletimerdateandperiod.js', // AnonymousObservable, normalizeTime
