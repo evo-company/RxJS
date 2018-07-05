@@ -106,8 +106,6 @@ module.exports = [
     'src/core/linq/observable/multicast.js', // ConnectableObservable
     'src/core/linq/observable/publish.js',   // mulitcast, Subject
     'src/core/linq/observable/share.js',   // mulitcast, Subject, Reference counted
-    'src/core/linq/observable/publishlast.js', // multicast, AsyncSubject
-    'src/core/linq/observable/publishvalue.js', // multicast, BehaviorSubject
     'src/core/linq/observable/sharevalue.js', // multicast, BehaviorSubject, Reference counted
     'src/core/linq/observable/replay.js', // multicast, ReplaySubject
     'src/core/linq/observable/sharereplay.js',
@@ -131,19 +129,13 @@ module.exports = [
 
     // Backpressure operators
     'src/core/backpressure/pausable.js',
-    'src/core/backpressure/controlled.js',
-    'src/core/linq/observable/pipe.js',
 
     'src/core/anonymousobservable.js',
     'src/core/autodetachobserver.js',
     'src/core/subjects/innersubscription.js',
     'src/core/subjects/subject.js',
-    'src/core/subjects/asyncsubject.js',
-    'src/core/subjects/anonymoussubject.js',
     'src/core/subjects/behaviorsubject.js',
     'src/core/subjects/replaysubject.js',
-    'src/core/backpressure/pauser.js',
-
     'src/core/headers/exports.js',
 
     // End long stack traces
