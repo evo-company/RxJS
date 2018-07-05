@@ -78,6 +78,7 @@ module.exports = [
     'src/core/perf/operators/scan.js',
     'src/core/linq/observable/startwith.js',
     'src/core/linq/observable/windowwithcount.js',
+    'src/core/linq/observable/materialize.js',
 
     // Standard Query Operators
     'src/core/perf/operators/map.js',
