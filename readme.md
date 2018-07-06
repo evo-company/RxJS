@@ -8,9 +8,8 @@
 
 > :warning: This fork was created for creating custom build for @evo. The main reason for creating custom build is reducing bundle size. None code of the original sources was modified. All included methods for custom builds are stored in [custom-builds](https://github.com/evo-company/RxJS/tree/master/custom-builds) folder.
 
-> Custom builds:
-> * [dist/rx.prom.js](https://github.com/evo-company/RxJS/blob/master/dist/rx.prom.js) - *209 KB*
-> Build prom bundle - *npm run build:prom*
+> *Custom builds*:
+> * [dist/rx.prom.js](https://github.com/evo-company/RxJS/blob/master/dist/rx.prom.js) `npm run build:prom`
 
 # NOTE: The latest version of RxJS can be found [here](https://github.com/reactivex/rxjs)
 
