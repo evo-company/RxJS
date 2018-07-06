@@ -46,6 +46,7 @@
   "main": "index.js",
   "typings": "./ts/rx.all.d.ts",
   "scripts": {
-    "test": "grunt"
+    "test": "grunt",
+    "build:prom": "grunt concat:prom && grunt uglify:prom"
   }
 }

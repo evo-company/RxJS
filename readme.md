@@ -10,6 +10,7 @@
 
 > Custom builds:
 > * [dist/rx.prom.js](https://github.com/evo-company/RxJS/blob/master/dist/rx.prom.js) - *209 KB*
+> Build prom bundle - *npm run build:prom*
 
 # NOTE: The latest version of RxJS can be found [here](https://github.com/reactivex/rxjs)
 
