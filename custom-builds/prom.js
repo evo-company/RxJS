@@ -67,6 +67,7 @@ module.exports = [
     'src/core/perf/operators/withlatestfrom.js',
     'src/core/perf/operators/zip.js',
     'src/core/linq/observable/zip.js',
+    'src/core/perf/operators/switch.js',
 
     // Single
     'src/core/linq/observable/asobservable.js',
