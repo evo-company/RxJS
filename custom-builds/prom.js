@@ -134,6 +134,7 @@ module.exports = [
 
     // Backpressure operators
     'src/core/backpressure/pausable.js',
+    'src/core/backpressure/pausablebuffered.js',
 
     'src/core/anonymousobservable.js',
     'src/core/autodetachobserver.js',
