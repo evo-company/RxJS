@@ -122,6 +122,7 @@ module.exports = [
 
     'src/core/linq/observable/_observabletimertimespanandperiod.js', // AnonymousObservable, defer, _observabletimerdateandperiod
     'src/core/linq/observable/interval.js', // timeoutScheduler, _observabletimertimespanandperiod
+    'src/core/linq/observable/timeinterval.js', // timeoutScheduler, defer, select
     'src/core/linq/observable/timer.js', // timeoutScheduler, _observabletimerdate, _observabletimerdateandperiod, _observabletimertimespan, _observabletimertimespanandperiod
     'src/core/linq/observable/delay.js', // AnonymousObservable, timeoutScheduler, SerialDisposable, materialize, timestamp
     'src/core/linq/observable/debounce.js', // AnonymousObservable, SerialDisposable, timeoutScheduler, SingleAssignmentDisposable, CompositeDisposable
