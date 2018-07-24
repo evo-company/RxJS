@@ -116,6 +116,9 @@ module.exports = [
     // Coincidence operators
     'src/core/linq/observable/pairwise.js',
 
+    // Experimental operators
+    'src/core/linq/observable/for.js', // Enumerable.forEach, concatproto
+
     // Time operators
     'src/core/linq/observable/_observabletimer.js', // AnonymousObservable
     'src/core/linq/observable/_observabletimerdateandperiod.js', // AnonymousObservable, normalizeTime
