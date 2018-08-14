@@ -2,7 +2,6 @@ module.exports = [
     'src/core/headers/license.js',
     'src/core/headers/intro.js',
     'src/core/headers/liteheader.js',
-    'src/core/subjects/asyncsubject.js',
 
     // Stack trace start
     'src/core/internal/trycatch.js',
