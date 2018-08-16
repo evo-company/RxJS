@@ -144,6 +144,7 @@ module.exports = [
     'src/core/autodetachobserver.js',
     'src/core/subjects/innersubscription.js',
     'src/core/subjects/subject.js',
+    'src/core/subjects/asyncsubject.js',
     'src/core/subjects/behaviorsubject.js',
     'src/core/subjects/replaysubject.js',
     'src/core/headers/exports.js',
